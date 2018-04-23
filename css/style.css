@@ -1,9 +1,39 @@
 /*HEADER*/
 
 .header-img {
-    height: 200px;
+    height: 500px;
     width: 100%;
-    margin: -10px;
+}
+
+.navi{
+    background: rgba(0, 0, 0, 0);
+    transition: 1s;
+}
+
+.navi.black{
+    background: #000;
+    transition: 1s;
+}
+
+.navbar-brand{
+    color: #000 !important;
+}
+
+.navbar-brand.black{
+    color: #fff !important;
+}
+
+.nav-link{
+    color: #000 !important;
+}
+
+.nav-link.black{
+    color: #fff !important;
+}
+
+/*BODY*/
+.content{
+    padding-top: 40px;
 }
 
 /*FOOTER*/

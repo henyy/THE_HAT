@@ -29,11 +29,11 @@
     <header>
         <!--HEADER IMAGE-->
         <div>
-            <img class="header-img" src="img/example-header.jpg" alt="logo">
+            <img class="header-img" src="https://wallpaperscraft.com/image/girl_mountains_backpack_114178_5458x3705.jpg" alt="logo">
         </div>
 
         <!--NAVIGATION-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light navi">
             <a class="navbar-brand" href="#">THE HAT</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
