@@ -1,4 +1,6 @@
 <?php include("header.php"); ?>
-<p>Hello world! This is HTML5 Boilerplate.</p>
-<ul id="photos"></ul>
+<div class="container">
+  <h2>Photos</h2>
+  <div class="row" id="gallery"></div>
+</div>
 <?php include("footer.php");?>
