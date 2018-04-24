@@ -31,9 +31,13 @@
     color: #fff !important;
 }
 
-/*BODY*/
-.content{
-    padding-top: 40px;
+.navbar-toggler{
+    background-color: transparent !important;
+}
+
+.navbar-toggler.black{
+    background-color: #fff !important;
+    background-color: transparent
 }
 
 /*FOOTER*/

@@ -4,12 +4,14 @@
               $('.navi').addClass('black');
               $('.nav-link').addClass('black');
               $('.navbar-brand').addClass('black');
+              $('.navbar-toggler').addClass('black');
         }
 
         else {
               $('.navi').removeClass('black');
               $('.nav-link').removeClass('black');
               $('.navbar-brand').removeClass('black');
+              $('.navbar-toggler').removeClass('black');
         }
   })
 
@@ -43,4 +45,21 @@ var i;
 for (i = 0; i < photoData.length; i++) { 
     $('#gallery').append("<div class='col-md-4' style='padding-bottom: 40px'><div class='thumbnail'><a href='" + photoData[i].THUMBNAIL + "' target='_blank'><img src='" + photoData[i].IMAGE + "' style='width:100%'><div class='caption'><p>" + photoData[i].CAPTION + "</p></div></a></div></div>");
 }
+});
+
+//STORY
+function successStory(storyData) {
+    console.log(storyData);
+}
+
+// Read whole spreadsheet
+var url_story = "https://sheetsu.com/apis/v1.0su/29f488da106f";
+$.ajax({
+    url: url_story,
+    success: successStory
+}).done(function (storyData) {
+    $('#synopsis1').append(storyData[0].STORY)
+    $('#synopsis2').append(storyData[1].STORY)
+    $('#character1').append(storyData[2].STORY)
+    $('#character2').append(storyData[3].STORY)
 });
