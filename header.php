@@ -29,7 +29,7 @@
     <header>
         <!--HEADER IMAGE-->
         <div>
-            <img class="header-img" src="https://wallpaperscraft.com/image/girl_mountains_backpack_114178_5458x3705.jpg" alt="logo">
+            <img class="img-fluid" src="https://wallpaperscraft.com/image/girl_mountains_backpack_114178_5458x3705.jpg" alt="logo">
         </div>
 
         <!--NAVIGATION-->

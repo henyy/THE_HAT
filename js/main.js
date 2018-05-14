@@ -15,11 +15,44 @@
         }
   })
 
-//GOOGLE SHEETS
-function successFunc(data) {
-    console.log(data);
-}
+//PHOTO GALLERY
+  $(document).ready(function () {
 
+    $.ajax({
+    type: "GET",
+    url: "https://sheets.googleapis.com/v4/spreadsheets/11A_mMEluRZuVKcS953cAJtJB1NrrLZRgRM9lJsbwBic/values/A1%3AC1000?fields=values&key=AIzaSyD-dvq1JhQ4IquiWxmzu-RFNS0GZWEeqDo",
+    success: function(result)
+    {
+    console.log(result.values);
+
+    var i;
+for (i = 1; i < result.values.length; i++) { 
+    $('#gallery').append("<div class='col-md-4' style='padding-bottom: 40px'><div class='thumbnail'><a href='" + result.values[i][0] + "' target='_blank'><img src='" +  result.values[i][1] + "' style='width:100%'><div class='caption'><p>" + result.values[i][2] + "</p></div></a></div></div>");
+}
+    }
+    });
+   
+//STORY    
+    $.ajax({
+        type: "GET",
+        url: "https://sheets.googleapis.com/v4/spreadsheets/11A_mMEluRZuVKcS953cAJtJB1NrrLZRgRM9lJsbwBic/values/STORY!A1%3AC1000?fields=values&key=AIzaSyD-dvq1JhQ4IquiWxmzu-RFNS0GZWEeqDo",
+        success: function(storyResult)
+        {
+        console.log(storyResult.values);
+        $('#synopsis1').append(storyResult.values[1][0])
+        $('#synopsis2').append(storyResult.values[2][0])
+        $('#character1').append(storyResult.values[3][0])
+        $('#character2').append(storyResult.values[4][0])
+    
+        }
+        });
+
+    });
+
+
+
+
+/*
 // Read whole spreadsheet
 var url = "https://sheetsu.com/apis/v1.0su/6e3eb4341f26";
 $.ajax({
@@ -62,4 +95,4 @@ $.ajax({
     $('#synopsis2').append(storyData[1].STORY)
     $('#character1').append(storyData[2].STORY)
     $('#character2').append(storyData[3].STORY)
-});
+});*/
