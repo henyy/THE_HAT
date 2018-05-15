@@ -28,9 +28,9 @@
     <!--HEADER-->
     <header>
         <!--HEADER IMAGE-->
-        <div>
-            <img class="img-fluid" src="https://wallpaperscraft.com/image/girl_mountains_backpack_114178_5458x3705.jpg" alt="logo">
-        </div>
+        <!--<div>
+            <img class="img-fluid" src="img/header.jpg" alt="logo">
+        </div>-->
 
         <!--NAVIGATION-->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light navi">
@@ -59,3 +59,20 @@
             </div>
         </nav>
     </header>
+    <style>
+.parallax {
+    /* The image used */
+    background-image: url("img/header.jpg");
+
+    /* Set a specific height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<div class="img-fluid parallax"></div>
