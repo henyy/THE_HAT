@@ -34,31 +34,33 @@
         </div>-->
 
         <!--NAVIGATION-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light navi">
-            <a class="navbar-brand" href="index.php">THE HAT</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="story.php">Story</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="photos.php">Photos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="team.php">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light navi navbar-expand-sm" data-toggle="affix">
+    <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="story.php">Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photos.php">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.php">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.php">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
     </header>
     <style>
 .parallax {
@@ -76,4 +78,9 @@
 }
 </style>
 
+    <section>
+<a href="#" class="scroll-down" address="true"></a>
+</section>
+
 <div class="img-fluid parallax"></div>
+..
