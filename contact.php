@@ -4,6 +4,7 @@
 <!--CONTACT FORM-->
 <div class="row">
 <div class="col">
+<h3>Contact us</h3>
 <form method="POST" name="contact_form" action="sendForm.php">
 <div class="form-group">
 		<label for='name'>Name</label>
