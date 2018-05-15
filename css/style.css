@@ -63,9 +63,19 @@
 /*FOOTER*/
 
 footer {
-    background-color: lightgray;
+    background-color: #5e5e5e;
     text-align: center;
     width: 100%;
-    height: 40px;
+    height: 50px;
     margin-top: 20px;
+}
+
+.icon-link{
+    color: #000;
+    transition: 0.7s;
+}
+
+.icon-link:hover{
+    color: #fffb6c;
+    transition: 0.7s;
 }

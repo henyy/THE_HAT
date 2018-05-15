@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("header_2.php"); ?>
 
 <div class="container">
 <!--CONTACT FORM-->

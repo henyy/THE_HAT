@@ -66,7 +66,7 @@
     background-image: url("img/header.jpg");
 
     /* Set a specific height */
-    height: 100vh; 
+    min-height: 400px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
