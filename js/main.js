@@ -29,6 +29,9 @@ for (i = 1; i < result.values.length; i++) {
 }
     }
     });
+
+
+
    
 //STORY    
     $.ajax({

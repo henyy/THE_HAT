@@ -1,7 +1,13 @@
 <?php include("header.php"); ?>
 <section class="roll">
 
+<<<<<<< HEAD
 </section>
+=======
+
+</section>
+
+>>>>>>> aaebde146de50093494dbf29bbfa7c434e9d294a
 <div class="container">
 <div class="row">
 <div class="col">
@@ -21,6 +27,10 @@ Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicu
 </div>
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> aaebde146de50093494dbf29bbfa7c434e9d294a
 <div class="card-group">
   <div class="card">
     <img class="card-img-top" src="img/header.jpg" alt="Card image cap">
@@ -46,7 +56,7 @@ Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicu
       <p class="card-text"><small class="text-muted"></small></p>
     </div>
   </div>
-</div>
+  </div>
 
 <div class="row">
 <div class="col">
@@ -55,5 +65,9 @@ Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicu
 </div>
 </div>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> aaebde146de50093494dbf29bbfa7c434e9d294a
 
 <?php include("footer.php");?>

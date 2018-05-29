@@ -6,12 +6,12 @@
 }
 
 .navi{
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0,0,0,0);
     transition: 1s;
 }
 
 .navi.black{
-    background: #000;
+    background: rgb(211,211,211);
     transition: 1s;
 }
 
@@ -120,6 +120,9 @@
       transform: translateY(-5px);
     }
   }
+
+/*PHOTOS*/
+
 
 /*FOOTER*/
 
