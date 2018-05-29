@@ -1,5 +1,9 @@
 <?php include("header.php"); ?>
 <section class="roll">
+
+
+</section>
+
 <div class="container">
 <div class="row">
 <div class="col">
@@ -7,11 +11,7 @@
 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/9CS7j5I6aOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 </div>
-</div>
-</section>
 
-
-<div class="container">
 <div class="row">
 <div class="col">
 <h3>About us</h3>
@@ -21,11 +21,9 @@ Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicu
 Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicunt quodsi usu, mei in amet lobortis efficiantur.</p>
 </div>
 </div>
-</div>
 
-<div class="container">
-<div class="row">
-<div class="col">
+
+
 <div class="card-group">
   <div class="card">
     <img class="card-img-top" src="img/header.jpg" alt="Card image cap">
@@ -51,7 +49,7 @@ Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicu
       <p class="card-text"><small class="text-muted"></small></p>
     </div>
   </div>
-</div>
+  </div>
 
 <div class="row">
 <div class="col">
@@ -60,6 +58,6 @@ Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicu
 </div>
 </div>
 </div>
-</div>
+
 
 <?php include("footer.php");?>
