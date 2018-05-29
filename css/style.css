@@ -40,6 +40,10 @@
     margin-top: 50px;
 }
 
+.second-container{
+    margin-top: 200px !important;
+}
+
 .container h3{
     margin-top: 90px; 
     margin-bottom: 20px;
