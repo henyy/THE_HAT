@@ -52,7 +52,7 @@ for (i = 1; i < result.values.length; i++) {
 
     $(function() {
         $('.scroll-down').click (function() {
-          $('html, body').animate({scrollTop: $('iframe.video').offset().top }, 'slow');
+          $('html, body').animate({scrollTop: $('section.roll').offset().top }, 'slow');
           return false;
         });
       });
