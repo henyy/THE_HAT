@@ -16,19 +16,24 @@
 //PHOTO GALLERY
   $(document).ready(function () {
 
-    $.ajax({
+   /* $.ajax({
     type: "GET",
     url: "https://sheets.googleapis.com/v4/spreadsheets/11A_mMEluRZuVKcS953cAJtJB1NrrLZRgRM9lJsbwBic/values/A1%3AC1000?fields=values&key=AIzaSyD-dvq1JhQ4IquiWxmzu-RFNS0GZWEeqDo",
     success: function(result)
     {
     console.log(result.values);
 
-    var i;
-for (i = 1; i < result.values.length; i++) { 
-    $('#gallery').append("<div class='col-md-4' style='padding-bottom: 40px'><div class='thumbnail'><a href='" + result.values[i][0] + "' target='_blank'><img src='" +  result.values[i][1] + "' style='width:100%'><div class='caption'><p>" + result.values[i][2] + "</p></div></a></div></div>");
+  //  var i;
+//for (i = 1; i < result.values.length; i++) { 
+  //  $('#gallery').append("<div class='col-md-4' style='padding-bottom: 40px'><div class='thumbnail'><a href='" + result.values[i][0] + "' target='_blank'><img src='" +  result.values[i][1] + "' style='width:100%'><div class='caption'><p>" + result.values[i][2] + "</p></div></a></div></div>");
+
+  var i;
+  for (i = 1; i < result.values.length; i++) { 
+      //$('#gal').append("<div class='col-md-4'><div class='card'><a class='lightbox' href='img/" + result.values[i][0] + "koira.jpg'><img src='img/" + result.values[i][0] + "koira.jpg' alt='Park' class='card-img-top'></a></div></div>");
+      $('#gal').append("<a href='img/" + result.values[i][0] + "koira.jpg'><img src='img/" + result.values[i][0] + "koira.jpg' alt='Park'></a>");
+  }
 }
-    }
-    });
+    });*/
 
 
 

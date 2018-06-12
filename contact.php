@@ -22,7 +22,7 @@
 </form>
 </div>
 <div class="col">
-    <p>Tähän yhteystiedot jeee</p>
+    <img src="img/hat.png" class="contact-hat" width="444" height="224">
 </div>
 </div>
 </div>

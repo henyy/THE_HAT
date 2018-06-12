@@ -1,6 +1,6 @@
 <!--FOOTER-->
 <footer>
-    <div class="row">
+    <div class="row" id="footer-row-margin">
         <div class="col"></div>
         <div class="col">
             <p style="margin-top: 10px; color: #000;">©THE HAT</p>
@@ -15,14 +15,10 @@
 
 <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
 <script>
-    baguetteBox.run('.tz-gallery');
-</script>
-<script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"></script>')
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
 
 </script>
 <script src="js/plugins.js"></script>

@@ -1,17 +1,13 @@
 <?php include("header_2.php"); ?>
-<<<<<<< HEAD
-<div class="container second-container">
-  <h2>Photos</h2>
-  <div class="row" id="gallery"></div>
-</div>
-=======
-<h2>Photos</h2>
+
 <div class="container">
-  
+<div class="container gallery-container">
+<h2 class="text-center">Photos</h2> 
            
-         <div class="tz-gallery">
+         <div class="tz-gallery" id="gal">
+
        
-             <div class="row mb-3">
+            <div class="row mb-3">
                  <div class="col-md-4">
                      <div class="card">
                          <a class="lightbox" href="img/6koira.jpg">
@@ -63,13 +59,14 @@
               
              </div>
        
-         </div>
-       
+         
+       </div>
      </div>
 
- 
+ </div>
 
-
-
->>>>>>> aaebde146de50093494dbf29bbfa7c434e9d294a
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 <?php include("footer.php");?>

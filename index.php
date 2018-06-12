@@ -1,62 +1,46 @@
 <?php include("header.php"); ?>
 <section class="roll">
 
-<<<<<<< HEAD
-</section>
-=======
 
 </section>
 
->>>>>>> aaebde146de50093494dbf29bbfa7c434e9d294a
 <div class="container">
-<div class="row">
-<div class="col">
-<h3>Making of video</h3>
-<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/9CS7j5I6aOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-</div>
-
-<div class="row">
-<div class="col">
-<h3>About us</h3>
-<p>Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicunt quodsi usu, mei in amet lobortis efficiantur. 
-Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicunt quodsi usu, mei in amet lobortis efficiantur
-Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicunt quodsi usu, mei in amet lobortis efficiantur
-Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicunt quodsi usu, mei in amet lobortis efficiantur.</p>
-</div>
-</div>
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> aaebde146de50093494dbf29bbfa7c434e9d294a
-<div class="card-group">
-  <div class="card">
-    <img class="card-img-top" src="img/header.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">About</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted"></small></p>
+    <div class="row">
+        <div class="col">
+            <h3>Making of video</h3>
+        </div>
     </div>
+<div class="row" style="padding-top: 70px;">
+<div class="col-md-6">
+<iframe class="video" width="100%" height="300" src="https://www.youtube.com/embed/9CS7j5I6aOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<div class="col-md-5 offset-sm-1">
+    <p>Making of video about Lorem Ipsum. opejtpoewjweop jweo j wpo jwp wp ojw pwp ojwp owj wp owj wpo jw jwp jwp jwp j Making of video about Lorem Ipsum.  opejtpoewjweop jweo j wpo jwp wp ojw pwp ojwp owj wp owj wpo jw jwp jwp jwp j</p>
+</div>
+</div>
+
+<section class="line"></section>
+
+<div class="row" id="cards-margin">
+  <div class="col-sm">
+  <figure>
+  <a href="photos.php"><img src="img/camera_icon.png" class="center" alt="The Pulpit Rock" width="128" height="128"></a>
+    <figcaption class="fig-center"><h3>Photos</h3><p><a href="photos.php">Click here</a> to see our making of photos.</p></figcaption>
+</figure>
   </div>
-  <div class="card">
-    <img class="card-img-top" src="img/header.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Photos</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted"></small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="img/header.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Team</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
-      <p class="card-text"><small class="text-muted"></small></p>
-    </div>
-  </div>
-  </div>
+<div class="col-sm">
+<figure>
+<a href="team.php"><img src="img/group_icon.png" class="center" alt="The Pulpit Rock" width="128" height="128"></a>
+    <figcaption class="fig-center"><h3>Team</h3><p><a href="team.php">Read more</a> about our team.</p></figcaption>
+</figure>
+</div>
+<div class="col-sm">
+<figure>
+<a href="about.php"><img src="img/about_icon.png" class="center" alt="The Pulpit Rock" width="128" height="128"></a>
+    <figcaption class="fig-center"><h3>About</h3><p>You can find out more information about our project <a href="about.php">here.</a></p></figcaption>
+</figure>
+</div>
+</div>
 
 <div class="row">
 <div class="col">
@@ -65,9 +49,5 @@ Lorem ipsum dolor sit amet, nec esse appareat cu, mollis persius has et. Ne dicu
 </div>
 </div>
 </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> aaebde146de50093494dbf29bbfa7c434e9d294a
 
 <?php include("footer.php");?>

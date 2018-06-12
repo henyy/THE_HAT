@@ -16,6 +16,17 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <style>
+    body  {
+    background-image: url("img/wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    }
+</style>
+
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
@@ -36,7 +47,7 @@
         </div>-->
 
         <!--NAVIGATION-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light navi navbar-expand-sm" data-toggle="affix">
+        <nav class="navbar fixed-top navbar-expand-md navi" data-toggle="affix">
     <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
