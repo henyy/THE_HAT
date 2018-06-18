@@ -1,5 +1,5 @@
 <?php include("header_2.php"); ?>
-<div class="container second-container">
+<div class="container">
     <h3>Story</h3>
         <p id="synopsis1"></p>
         <p id="synopsis2"></p>

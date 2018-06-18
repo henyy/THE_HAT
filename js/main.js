@@ -16,7 +16,7 @@
 //PHOTO GALLERY
   $(document).ready(function () {
 
-   /* $.ajax({
+    $.ajax({
     type: "GET",
     url: "https://sheets.googleapis.com/v4/spreadsheets/11A_mMEluRZuVKcS953cAJtJB1NrrLZRgRM9lJsbwBic/values/A1%3AC1000?fields=values&key=AIzaSyD-dvq1JhQ4IquiWxmzu-RFNS0GZWEeqDo",
     success: function(result)
@@ -30,10 +30,16 @@
   var i;
   for (i = 1; i < result.values.length; i++) { 
       //$('#gal').append("<div class='col-md-4'><div class='card'><a class='lightbox' href='img/" + result.values[i][0] + "koira.jpg'><img src='img/" + result.values[i][0] + "koira.jpg' alt='Park' class='card-img-top'></a></div></div>");
-      $('#gal').append("<a href='img/" + result.values[i][0] + "koira.jpg'><img src='img/" + result.values[i][0] + "koira.jpg' alt='Park'></a>");
+      $('#gallery').append("<a href='img/" + result.values[i][0] + "koira.jpg' data-lightbox='roadtrip'><img class='thumbnail' src='img/" + result.values[i][0] + "koira.jpg' alt='Park'></a>");
   }
 }
-    });*/
+    });
+
+
+//TEAM
+for (i = 0; i < 20; i++) { 
+    $('#team').append("<figure class='team-figure'><img src='img/default.png'><figcaption>Team member - web design</figcaption></figure>");
+}
 
 
 

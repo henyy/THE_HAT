@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link rel="stylesheet" href="css/gallery-grid.css">
+    <link href="css/lightbox.css" rel="stylesheet">
         
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
@@ -25,7 +26,7 @@
 
     <style>
     body  {
-    background-image: url("img/wallpaper.jpg");
+    background-image: url("img/bridge.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

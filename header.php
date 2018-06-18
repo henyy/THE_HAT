@@ -15,10 +15,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/video-normalize.css">
+    <link rel="stylesheet" href="css/video-styles.css">
 
     <style>
     body  {
-    background-image: url("img/wallpaper.jpg");
+    background-image: url("img/bridge.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,6 +48,15 @@
         <!--<div>
             <img class="img-fluid" src="img/header.jpg" alt="logo">
         </div>-->
+        <!--<video class="video-header" width="100%" height="80%" autoplay loop muted>
+  <source src="img/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>-->
+<video class="bv-video" autoplay loop muted></video>
+<section>
+<a href="#" class="scroll-down" address="true"></a>
+</section>
+
 
         <!--NAVIGATION-->
         <nav class="navbar fixed-top navbar-expand-md navi" data-toggle="affix">
@@ -75,10 +87,10 @@
 </nav>
 
     </header>
-    <style>
+    <!--<style>
 .parallax {
     /* The image used */
-    background-image: url("img/header.jpg");
+    /*background-image: url("img/header.jpg");
 
     /* Set a specific height */
     height: 100vh; 
@@ -89,11 +101,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-</style>
+</style>-->
 
-    <section>
-<a href="#" class="scroll-down" address="true"></a>
-</section>
-
-<div class="img-fluid parallax"></div>
-..
+<!--<div class="img-fluid parallax"></div>-->

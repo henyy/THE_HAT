@@ -1,6 +1,6 @@
 <?php include("header_2.php"); ?>
 
-<div class="container second-container">
+<div class="container">
 <!--CONTACT FORM-->
 <div class="row">
 <div class="col">
