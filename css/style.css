@@ -51,8 +51,7 @@
 
 /*BODY*/
 .container{
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding: 70px 60px 50px 60px !important;
     max-width: 100% !important;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -100,7 +99,7 @@
 }
 
 #gallery{
-    width: 61%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
