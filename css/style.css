@@ -16,6 +16,8 @@
 
 .nav-link{
     color: #000 !important;
+    font-family: 'Satisfy', cursive;
+    font-size: 26px;
     padding: 20px 35px 20px 35px !important;
 }
 
@@ -61,13 +63,28 @@
 }
 
 .container h3{
+    font-family: 'Satisfy', cursive;
+    font-size: 36px;
     margin-top: 90px; 
     margin-bottom: 20px;
     text-align: center;
 }
 
+.container h4{
+    font-family: 'Satisfy', cursive;
+    font-size: 32px;
+
+}
+
 .container p{
     margin-bottom: 70px;
+    font-family: 'Lateef', cursive;
+    font-size: 26px;
+}
+
+figcaption{
+    font-family: 'Lateef', cursive;
+    font-size: 22px;    
 }
 
 /*.video{
@@ -109,11 +126,18 @@
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
+.team-page{
+margin-left: auto !important;
+margin-right: auto !important;
+width: 66% ;
+}
+
 .team-figure{
     display: inline-block;
     position: relative;
     margin: 10px 10px;
 }
+
 
 /*SCROLL DOWN*/
 
@@ -205,6 +229,8 @@
 
 footer {
     background-color: #5e5e5e;
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
     text-align: center;
     width: 100%;
     height: 50px;
@@ -223,4 +249,12 @@ footer {
 .icon-link:hover{
     color: #fffb6c;
     transition: 0.7s;
+}
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 768px) {
+    .team-page {
+        width: 75%;
+    }
 }

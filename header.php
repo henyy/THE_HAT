@@ -18,6 +18,7 @@
     <link href="css/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="css/video-normalize.css">
     <link rel="stylesheet" href="css/video-styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lateef|Satisfy" rel="stylesheet">
 
     <style>
     body  {
