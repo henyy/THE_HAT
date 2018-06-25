@@ -73,7 +73,6 @@
 .container h4{
     font-family: 'Satisfy', cursive;
     font-size: 32px;
-
 }
 
 .container p{
@@ -87,10 +86,19 @@ figcaption{
     font-size: 22px;    
 }
 
-/*.video{
-    width: 80%;
-    height: 75vh;
-}*/
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 #synopsis1{
     text-align: center;
@@ -101,11 +109,6 @@ figcaption{
     padding-bottom: 100px;
 }
 
-.line{
-    border-bottom: 5px solid #000;
-    margin-top: 100px;
-    opacity: 0.04;
-}
 
 .thumbnail {
     border: 1px solid #ddd; /* Gray border */
@@ -129,7 +132,7 @@ figcaption{
 .team-page{
 margin-left: auto !important;
 margin-right: auto !important;
-width: 66% ;
+width: 67% ;
 }
 
 .team-figure{
@@ -213,7 +216,8 @@ width: 66% ;
 }
 
 #cards-margin{
-    margin-top: 150px;
+    margin-top: 250px;
+    margin-bottom: 100px;
 }
 
 /*CONTACT IMAGE*/
@@ -253,8 +257,64 @@ footer {
 
 
 /*MEDIA QUERIES*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .team-page {
-        width: 75%;
+        width: 77%;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1494px) {
+    .team-page {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .team-page {
+        width: 100%;
+    }
+
+    .thumbnail {
+        width: 200px;
+        height: 150px;
+    }
+
+    .navbar{
+        display: inline-block !important;
+    }
+
+    #cards-margin {
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    #gallery{
+        width: 69%;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    #gallery{
+        width: 78%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #gallery{
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #gallery{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 472px) {
+    .container h4{
+        padding-top: 30px;
     }
 }

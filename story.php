@@ -3,7 +3,6 @@
     <h3>Story</h3>
         <p id="synopsis1"></p>
         <p id="synopsis2"></p>
-        <section class="line"></section>
 
     <div class="row">
     <div class="col">
