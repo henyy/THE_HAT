@@ -5,6 +5,7 @@
 </section>
 
 <div class="container">
+<div class="main">
     <div class="row">
         <div class="col">
             <h3>Making of video</h3>
@@ -49,6 +50,7 @@
 
 <h3>Instagram</h3>
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/38a74f16a72b5b38af14479b929d1790.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+</div>
 </div>
 </div>
 </div>

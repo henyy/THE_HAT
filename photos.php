@@ -1,7 +1,7 @@
 <?php include("header_2.php"); ?>
 
 <div class="container">
-<div id="gallery">
+<div class="main" id="gallery">
 
 
 <!--<div class="container gallery-container">

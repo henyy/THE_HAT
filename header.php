@@ -20,14 +20,14 @@
     <link rel="stylesheet" href="css/video-styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lateef|Satisfy" rel="stylesheet">
 
-    <style>
+   <style>
     body  {
-    background-image: url("img/bridge.png");
-    background-position: center;
+    background-image: url("img/smoke.jpg");
+   /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 100%;*/
     }
 </style>
 
