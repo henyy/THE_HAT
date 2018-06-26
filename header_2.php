@@ -27,7 +27,7 @@
 
     <style>
     body  {
-    background-image: url("img/bridge.jpeg");
+    background-image: url("img/bridge.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +70,7 @@
                     <a class="nav-link" href="team.php">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
             </ul>
         </div>

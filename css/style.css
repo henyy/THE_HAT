@@ -53,9 +53,9 @@
 
 /*BODY*/
 .container{
-    padding: 70px 60px 50px 60px !important;
+    padding: 70px 70px 50px 70px !important;
     max-width: 100% !important;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .second-container{
@@ -119,7 +119,7 @@ figcaption{
 }
 
 #gallery{
-    width: 65%;
+    width: 66%;
     margin-left: auto;
     margin-right: auto;
 }

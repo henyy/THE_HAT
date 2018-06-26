@@ -29,7 +29,7 @@
   <script>
     const backgroundVideo = new BackgroundVideo('.bv-video', {
       src: [
-        'img/video.mp4'
+        'img/video_1.mp4'
       ],
       onReady: function () {
         // Use onReady() to prevent flickers or force loading state
