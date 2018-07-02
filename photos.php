@@ -1,7 +1,9 @@
 <?php include("header_2.php"); ?>
 
 <div class="container">
-<div class="main" id="gallery">
+<div class="main">
+<h3>Photos</h3>
+<div id="gallery">
 
 
 <!--<div class="container gallery-container">
@@ -67,6 +69,7 @@
 
  </div>
  </div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <script>

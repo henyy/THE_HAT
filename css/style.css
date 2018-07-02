@@ -74,6 +74,7 @@
     margin-top: 90px; 
     margin-bottom: 20px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .container h4{
@@ -89,7 +90,12 @@
 
 figcaption{
     font-family: 'Lateef', cursive;
-    font-size: 22px;    
+    font-size: 22px;
+}    
+
+.break{
+    word-break: normal;
+    width: 200px;
 }
 
 .video-responsive{
