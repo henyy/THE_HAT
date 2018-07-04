@@ -7,7 +7,7 @@
 
     <div class="row">
     <div class="col">
-        <img src="img/default.png">
+        <img src="img/peter.JPG">
     </div>
     <div class="col">
     <h4>Passerby</h4>
@@ -16,7 +16,7 @@
 </div>
 <div class="row">
 <div class="col">
-        <img src="img/default.png">
+        <img src="img/mark.jpg">
     </div>
     <div class="col">
     <h4>Suicider</h4>

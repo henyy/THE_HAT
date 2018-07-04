@@ -30,7 +30,7 @@
   var i;
   for (i = 1; i < result.values.length; i++) { 
       //$('#gal').append("<div class='col-md-4'><div class='card'><a class='lightbox' href='img/" + result.values[i][0] + "koira.jpg'><img src='img/" + result.values[i][0] + "koira.jpg' alt='Park' class='card-img-top'></a></div></div>");
-      $('#gallery').append("<a href='img/" + result.values[i][0] + "coming.png' data-lightbox='roadtrip'><img class='thumbnail' src='img/" + result.values[i][0] + "coming.png' alt='Park'></a>");
+      $('#gallery').append("<a href='img/backstage/hat (" + result.values[i][0] + ").jpg' data-lightbox='roadtrip'><img class='thumbnail' src='img/backstage/hat (" + result.values[i][0] + ").jpg' alt='Park'></a>");
   }
 }
     });
