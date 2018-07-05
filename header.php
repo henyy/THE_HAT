@@ -20,16 +20,16 @@
     <link rel="stylesheet" href="css/video-styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lateef|Satisfy" rel="stylesheet">
 
-   <style>
+  <!-- <style>
     body  {
     background-image: url("img/smoke.jpg");
     background-position: center;
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
     }
-</style>
+</style>-->
 
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">

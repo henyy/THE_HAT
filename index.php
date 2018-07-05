@@ -9,22 +9,18 @@
     <div class="row">
         <div class="col">
             <h3>Story</h3>
+            <p>Passerby is running after the last bus to get home after a little house party, however,
+ wind destroys his plans. It picks up a hat from his head and blows it away. That stops
+ Passerby for a second but that is enough for the bus to leave. Upset and still a little bit
+ tipsy he decides to move towards the city center.<a href="story.php">Read more..</a></p>
         </div>
     </div>
-<div class="row" style="padding-top: 70px;">
-<div class="col-md-6">
+<div class="row">
+<div class="col text-center">
 <!--<div class="video-responsive">
 <iframe class="video" width="420" height="315" src="https://www.youtube.com/embed/eh7lp9umG2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>-->
-<img class="img-fluid" src="img/smoking.jpg">
-</div>
-<div class="col-md-5 offset-sm-1">
-    <p>Passerby is running after the last bus to get home after a little house party, however,
- wind destroys his plans. It picks up a hat from his head and blows it away. That stops
- Passerby for a second but that is enough for the bus to leave. Upset and still a little bit
- tipsy he decides to move towards the city center. In a twist of fate, Passerby meets a
- man who is enjoying his night cigarette with a beautiful view of the river from the
- bridge. <a href="story.php">Read more..</a></p>
+<img class="img-fluid" width="700px" height="367px" src="img/story_img.jpg">
 </div>
 </div>
 

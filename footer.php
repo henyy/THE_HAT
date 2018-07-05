@@ -3,11 +3,11 @@
     <div class="row" id="footer-row-margin">
         <div class="col"></div>
         <div class="col">
-            <p style="margin-top: 10px; color: #000;">©THE HAT</p>
+            <p style="margin-top: 35px; color: #fff;">©THE HAT</p>
         </div>
         <div class="col">
         <!--<a class="icon-link" target="_blank" href="#"><i class="fab fa-facebook-square fa-2x" style="margin-right: 10px; margin-top: 10px;"></i></a>-->
-        <a class="icon-link" target="_blank" href="https://www.instagram.com/thehat_production/"><i class="fab fa-instagram fa-2x" style="margin-top: 10px;"></i></a>
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/thehat_production/"><i class="fab fa-instagram fa-2x" style="margin-top: 27px; color: #fff;"></i></a>
         </div>
     </div>
 
