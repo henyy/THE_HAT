@@ -10,7 +10,7 @@
         <img src="img/peter.JPG">
     </div>
     <div class="col">
-    <h4>Passerby</h4>
+    <h4>Peter</h4>
         <p id="character1"></p>
 </div>
 </div>
@@ -19,7 +19,7 @@
         <img src="img/mark.jpg">
     </div>
     <div class="col">
-    <h4>Suicider</h4>
+    <h4>Mark</h4>
         <p id="character2"></p>
 </div>
 </div>
