@@ -41,7 +41,7 @@
 <div class="col-sm">
 <figure>
 <a href="about.php"><img src="img/about_icon.png" class="center" alt="The Pulpit Rock" width="128" height="128"></a>
-    <figcaption class="fig-center"><h3>About</h3><p>You can find out more information about our project <a href="about.php">here.</a></p></figcaption>
+    <figcaption class="fig-center"><h3>About</h3><p>Find out more information about our project <a href="about.php">here.</a></p></figcaption>
 </figure>
 </div>
 </div>
