@@ -52,7 +52,7 @@
         <!--NAVIGATION-->
         <nav class="navbar fixed-top navbar-expand-md navi" data-toggle="affix">
     <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-center" id="navbarsExample11">

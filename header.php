@@ -46,14 +46,14 @@
     <!--HEADER-->
     <header>
         <!--HEADER IMAGE-->
-        <!--<div>
-            <img class="img-fluid" src="img/header.jpg" alt="logo">
-        </div>-->
+        <div id="hide-img">
+            <img class="img-fluid" src="img/THE_HAT_MOBILE.png" alt="logo">
+        </div>
         <!--<video class="video-header" width="100%" height="80%" autoplay loop muted>
   <source src="img/video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>-->
-<video class="bv-video" autoplay loop muted></video>
+<video id="hide-video" class="bv-video" autoplay loop muted></video>
 <section>
 <a href="#" class="scroll-down" address="true"></a>
 </section>
@@ -62,7 +62,7 @@
         <!--NAVIGATION-->
         <nav class="navbar fixed-top navbar-expand-md navi" data-toggle="affix">
     <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-center" id="navbarsExample11">
